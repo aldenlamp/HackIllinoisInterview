@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF644791251D81A300CB59EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF644790251D81A300CB59EB /* AppDelegate.swift */; };
+		BF644793251D81A300CB59EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF644792251D81A300CB59EB /* SceneDelegate.swift */; };
+		BF644795251D81A300CB59EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF644794251D81A300CB59EB /* ViewController.swift */; };
+		BF644798251D81A300CB59EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF644796251D81A300CB59EB /* Main.storyboard */; };
+		BF64479A251D81A400CB59EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF644799251D81A400CB59EB /* Assets.xcassets */; };
+		BF64479D251D81A400CB59EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64479B251D81A400CB59EB /* LaunchScreen.storyboard */; };
+		BF6447A5251FCCFA00CB59EB /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6447A4251FCCFA00CB59EB /* DataParser.swift */; };
+		BF6447A7251FD04000CB59EB /* EventObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6447A6251FD04000CB59EB /* EventObject.swift */; };
+		BF6447A9251FF1E500CB59EB /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6447A8251FF1E500CB59EB /* EventTableViewCell.swift */; };
+		BF6447AB2520279F00CB59EB /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6447AA2520279F00CB59EB /* SelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF64478D251D81A300CB59EB /* Hack Illinois Interview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack Illinois Interview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF644790251D81A300CB59EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF644792251D81A300CB59EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF644794251D81A300CB59EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF644797251D81A300CB59EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF644799251D81A400CB59EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF64479C251D81A400CB59EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF64479E251D81A400CB59EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6447A4251FCCFA00CB59EB /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		BF6447A6251FD04000CB59EB /* EventObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventObject.swift; sourceTree = "<group>"; };
+		BF6447A8251FF1E500CB59EB /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		BF6447AA2520279F00CB59EB /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF64478A251D81A300CB59EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF644784251D81A300CB59EB = {
+			isa = PBXGroup;
+			children = (
+				BF64478F251D81A300CB59EB /* Hack Illinois Interview */,
+				BF64478E251D81A300CB59EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF64478E251D81A300CB59EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF64478D251D81A300CB59EB /* Hack Illinois Interview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF64478F251D81A300CB59EB /* Hack Illinois Interview */ = {
+			isa = PBXGroup;
+			children = (
+				BF644792251D81A300CB59EB /* SceneDelegate.swift */,
+				BF644790251D81A300CB59EB /* AppDelegate.swift */,
+				BF644794251D81A300CB59EB /* ViewController.swift */,
+				BF6447AA2520279F00CB59EB /* SelectionView.swift */,
+				BF6447A8251FF1E500CB59EB /* EventTableViewCell.swift */,
+				BF6447A4251FCCFA00CB59EB /* DataParser.swift */,
+				BF6447A6251FD04000CB59EB /* EventObject.swift */,
+				BF644796251D81A300CB59EB /* Main.storyboard */,
+				BF644799251D81A400CB59EB /* Assets.xcassets */,
+				BF64479B251D81A400CB59EB /* LaunchScreen.storyboard */,
+				BF64479E251D81A400CB59EB /* Info.plist */,
+			);
+			path = "Hack Illinois Interview";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF64478C251D81A300CB59EB /* Hack Illinois Interview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6447A1251D81A400CB59EB /* Build configuration list for PBXNativeTarget "Hack Illinois Interview" */;
+			buildPhases = (
+				BF644789251D81A300CB59EB /* Sources */,
+				BF64478A251D81A300CB59EB /* Frameworks */,
+				BF64478B251D81A300CB59EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hack Illinois Interview";
+			productName = "Hack Illinois Interview";
+			productReference = BF64478D251D81A300CB59EB /* Hack Illinois Interview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF644785251D81A300CB59EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "alden lamp";
+				TargetAttributes = {
+					BF64478C251D81A300CB59EB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = BF644788251D81A300CB59EB /* Build configuration list for PBXProject "Hack Illinois Interview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF644784251D81A300CB59EB;
+			productRefGroup = BF64478E251D81A300CB59EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF64478C251D81A300CB59EB /* Hack Illinois Interview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF64478B251D81A300CB59EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF64479D251D81A400CB59EB /* LaunchScreen.storyboard in Resources */,
+				BF64479A251D81A400CB59EB /* Assets.xcassets in Resources */,
+				BF644798251D81A300CB59EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF644789251D81A300CB59EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF644795251D81A300CB59EB /* ViewController.swift in Sources */,
+				BF6447A9251FF1E500CB59EB /* EventTableViewCell.swift in Sources */,
+				BF6447A7251FD04000CB59EB /* EventObject.swift in Sources */,
+				BF644791251D81A300CB59EB /* AppDelegate.swift in Sources */,
+				BF6447A5251FCCFA00CB59EB /* DataParser.swift in Sources */,
+				BF6447AB2520279F00CB59EB /* SelectionView.swift in Sources */,
+				BF644793251D81A300CB59EB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF644796251D81A300CB59EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF644797251D81A300CB59EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF64479B251D81A400CB59EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF64479C251D81A400CB59EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF64479F251D81A400CB59EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF6447A0251D81A400CB59EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF6447A2251D81A400CB59EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY4X4HTK85;
+				INFOPLIST_FILE = "Hack Illinois Interview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isotonic.Hack-Illinois-Interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF6447A3251D81A400CB59EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY4X4HTK85;
+				INFOPLIST_FILE = "Hack Illinois Interview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Isotonic.Hack-Illinois-Interview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF644788251D81A300CB59EB /* Build configuration list for PBXProject "Hack Illinois Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF64479F251D81A400CB59EB /* Debug */,
+				BF6447A0251D81A400CB59EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6447A1251D81A400CB59EB /* Build configuration list for PBXNativeTarget "Hack Illinois Interview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6447A2251D81A400CB59EB /* Debug */,
+				BF6447A3251D81A400CB59EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF644785251D81A300CB59EB /* Project object */;
+}
